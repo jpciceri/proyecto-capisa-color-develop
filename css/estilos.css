@@ -107,6 +107,9 @@ nav ul li {
 }
 
 @media (min-width: 500px) {
+  body {
+    background-color: #6cf0d9;
+  }
   nav ul {
     display: flex;
     justify-content: space-between;
