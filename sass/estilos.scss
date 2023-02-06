@@ -1,0 +1,130 @@
+@import "variableglobal";
+@import "generales";
+@import "navbar";
+@import "medias";
+@import "cards";
+
+/* ----------------------------------------- */
+
+.logo-capisasrl {
+    image-orientation: flip;
+    @include sizes(400px, 400px);
+}
+
+
+
+.marcas {
+    list-style: none;
+    li {
+        margin-bottom: 3px;
+        text-align: center;
+        color: #3a3548;
+}
+}
+
+.logo-capisaa {
+    @include sizes(150px, 100px);
+    margin: 10px
+}
+
+/* Productos */
+
+.blondorplex {
+    @include sizes(350px, 420px);
+}
+
+.nutricurls {
+    @include sizes(400px, 400px);
+
+}
+
+.segundo-parrafo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #01807a;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+
+/* Contacto */
+.contacto {
+    text-align: left;
+}
+
+.contacto-telefonico {
+    text-align: left;
+    color: rgba(59, 125, 50, 0.584);
+}
+
+.operadora {
+    @include sizes(300px, 250px);
+    float: right;
+}
+
+
+
+
+
+.ofertas_title {
+    text-align: center;
+    @include sizes(135px, 135px);
+    margin: 20px;
+    background-color: rgb(205, 142, 182);
+    transition: all 3s ease;
+    }
+
+ .ofertas_title:hover{
+    animation: Ofertas 4s;
+ }
+    
+  @keyframes Ofertas{
+        0%{
+            background-color: coral;
+        }
+        25%{
+            border-radius: 40%;
+        }
+        50%{
+            transform:rotate(360deg)
+        }
+    }
+
+
+
+.marcas-logo {
+    @include sizes(147px, 100px);
+}
+
+.marcas-logo-index {
+    margin: auto;
+    @include sizes(276px, 200px);
+    margin-top: 20px;
+}
+
+.descripcion {
+    color: #ac6f82
+}
+
+.footer-redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}

@@ -1,0 +1,46 @@
+
+.cards-ofertas {
+    background-color: #ac6f82;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carddy {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.carddy-img-top {
+    width: 90%;
+    height: 200px;
+    max-width: 80%;
+
+}
+.carddy-img:hover{
+    transform: scale(1.5);
+}
+
+.carddy-img{
+    
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.nutric {
+    margin: 30px;
+    background-color: white;
+}
+
+.carddy-text {
+    font-size: small;
+}
+
+.carddy-body {
+    height: 320px
+}

@@ -1,0 +1,131 @@
+
+@media (min-width: 500px) {    
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    
+    .nosotros{
+        width: 100%;
+        height: 100%;
+        background-color: #75c7e2;
+        border:6px solid black ;
+        margin-bottom: 10px;
+
+        }
+
+        .nosotros-segundo{
+            width: 100%;
+            height: 100%;
+            border:6px solid black ;
+            margin-bottom: 10px;
+        }
+
+    .nosotros-tercero{
+        width: 100%;
+        height: 100%;
+        background-color: #136356;
+        border:6px solid black ;
+        margin-bottom: 10px;
+    }
+    .marcas-logo.item{
+        transition: all 3s ease-in;
+    }
+    }
+    
+
+@media (min-width:768px) {  
+    nav ul {
+        flex-direction: row;
+        border: 2px solid,
+
+    }
+
+    nav ul,
+    .ad,
+    article {
+        color:$color;
+
+    }
+
+    header,
+    h1,
+    h2,
+    a {
+        color:$color;
+    }
+
+    .cards-ofertas {
+        background-color: rgba(75, 185, 189, 0.9991);
+    }
+
+    .cards-ofertas-img {
+        background-color:$color;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin: 3em;
+    }
+
+    img {
+        width: 100%;
+        height: 150px;
+        border: 5px solid;
+    }
+
+    footer {
+        margin-top: 1.5em;
+        background: $color;
+    }
+    .nosotros{
+        background-color: #8c34ca;
+        border:6px solid black ;
+        margin-bottom: 10px;
+        }
+
+        .nosotros-segundo{
+            border:6px solid black ;
+            margin-bottom: 10px;
+        }
+
+    .nosotros-tercero{
+        background-color: #0b599c;
+        border:6px solid black ;
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:1024px) {
+    body {
+        background-color: #e5d4ef;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0px;
+    }
+
+    img {
+        @include sizes(84px, 80px);
+        margin-top: 20px;
+        border: 0px;
+    }
+    
+    .nosotros{
+        width: 100%;
+        height: 100%;
+        background-color: #75c7e2;
+        }
+
+    footer{
+        background-color: $color;
+    }
+
+}

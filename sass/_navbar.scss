@@ -1,0 +1,19 @@
+.navbar-collapse.collapse.show .nav-item {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-collapse.collapse.show .nav-item a {
+    font-size: 16px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 40px 40px 40px 40px;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
