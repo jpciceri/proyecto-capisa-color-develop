@@ -11,6 +11,16 @@
         flex-direction: row;
     }
 
+    .color-motion{
+        height: 400px;
+        width: 400px;
+    }
+
+    .fusion{
+        height: 400px;
+        width: 400px;
+    }
+
     footer {
         margin-top: 0;
     }
@@ -84,6 +94,15 @@
         border: 5px solid;
     }
 
+    .color-motion{
+        height: 400px;
+        width: 400px;
+    }
+    .fusion{
+        height: 400px;
+        width: 400px;
+    }
+
     footer {
         margin-top: 1.5em;
         background: $color;
@@ -120,6 +139,15 @@
         @include sizes(84px, 80px);
         margin-top: 20px;
         border: 0px;
+    }
+
+    .color-motion{
+        height: 400px;
+        width: 400px;
+    }
+    .fusion{
+        height: 400px;
+        width: 400px;
     }
     
     .nosotros{

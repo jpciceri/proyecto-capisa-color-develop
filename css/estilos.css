@@ -115,6 +115,14 @@ nav ul li {
     justify-content: space-between;
     flex-direction: row;
   }
+  .color-motion {
+    height: 400px;
+    width: 400px;
+  }
+  .fusion {
+    height: 400px;
+    width: 400px;
+  }
   footer {
     margin-top: 0;
   }
@@ -173,6 +181,14 @@ a {
     height: 150px;
     border: 5px solid;
   }
+  .color-motion {
+    height: 400px;
+    width: 400px;
+  }
+  .fusion {
+    height: 400px;
+    width: 400px;
+  }
   footer {
     margin-top: 1.5em;
     background: #3a3548;
@@ -205,6 +221,14 @@ a {
     width: 84px;
     margin-top: 20px;
     border: 0px;
+  }
+  .color-motion {
+    height: 400px;
+    width: 400px;
+  }
+  .fusion {
+    height: 400px;
+    width: 400px;
   }
   .nosotros {
     width: 100%;
